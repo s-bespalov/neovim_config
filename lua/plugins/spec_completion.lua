@@ -23,6 +23,7 @@ return {
             "hrsh7th/cmp-cmdline",
             "hrsh7th/cmp-vsnip",
             "hrsh7th/vim-vsnip",
+            "ray-x/cmp-treesitter",
         },
         config = function()
             vim.opt.completeopt = { "menu", "menuone", "noselect" }
@@ -72,6 +73,7 @@ return {
                 sources = cmp.config.sources({
                     { name = 'nvim_lsp' },
                     { name = 'vsnip' }, -- For vsnip users.
+                    { name = 'treesitter' },
                 }, {
                     { name = 'buffer' },
                 })

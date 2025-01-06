@@ -36,6 +36,7 @@ require("lazy").setup({
 
 -- Load LSP configuration
 require("lsp")
+require("ui")
 
 --indentation
 vim.opt.tabstop = 4      
