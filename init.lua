@@ -43,3 +43,10 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4  
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true 
+
+-- Case-insensitive searching UNLESS \C or one or more capital letters in the search term
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
+-- Keep signcolumn on by default
+vim.opt.signcolumn = 'yes'
